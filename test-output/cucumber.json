@@ -1,0 +1,147 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-26T03:48:13.338Z",
+        "line": 24,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "amaizon-automation;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3644000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I open \"chrome\" browser and I Go to \"https://www.amazon.ca\" site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"https://www.amazon.ca\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.nav.stepDefinitions.AmaizonStepDefinitions.i_open_browser_and_i_go_to_site(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 656000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I Click on hamburger menu (top left corner)",
+            "match": {
+              "location": "com.nav.stepDefinitions.AmaizonStepDefinitions.i_click_on_hamburger_menu_top_left_corner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 319000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I Select Kindle under Digital Content and Devices",
+            "match": {
+              "location": "com.nav.stepDefinitions.AmaizonStepDefinitions.i_select_kindle_under_digital_content_and_devices()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3734000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I Click Kindle under Kindle E-Reader",
+            "match": {
+              "location": "com.nav.stepDefinitions.AmaizonStepDefinitions.i_click_kindle_under_kindle_e_reader()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1242000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I Click Buy Now button",
+            "match": {
+              "location": "com.nav.stepDefinitions.AmaizonStepDefinitions.i_click_buy_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 972000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I Verify User is asked for email or mobile number",
+            "match": {
+              "location": "com.nav.stepDefinitions.AmaizonStepDefinitions.i_verify_user_is_asked_for_email_or_mobile_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I verify there is userId text box",
+            "match": {
+              "location": "com.nav.stepDefinitions.AmaizonStepDefinitions.i_verify_there_is_user_id_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 340000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I closed the browser",
+            "match": {
+              "location": "com.nav.stepDefinitions.AmaizonStepDefinitions.i_closed_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Amaizon Automation",
+    "description": "  This application is only for Demo purpose.",
+    "id": "amaizon-automation",
+    "keyword": "Feature",
+    "uri": "classpath:features/amazon.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

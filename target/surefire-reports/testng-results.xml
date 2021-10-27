@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31741" started-at="2021-10-25T15:44:19 EDT" finished-at="2021-10-25T15:44:51 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31741" started-at="2021-10-25T15:44:19 EDT" finished-at="2021-10-25T15:44:51 EDT">
+      <class name="com.nav.testCases.AmaizonTestCase">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.nav.testCases.AmaizonTestCase@5e853265]" name="test2" duration-ms="31706" started-at="2021-10-25T15:44:19 EDT" finished-at="2021-10-25T15:44:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.nav.testCases.AmaizonTestCase@5e853265]" name="test1" duration-ms="23775" started-at="2021-10-25T15:44:19 EDT" finished-at="2021-10-25T15:44:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.nav.testCases.AmaizonTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
